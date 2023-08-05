@@ -8,7 +8,7 @@ Given an image, find other similar images from a learned set of images.
 
 See [CBIR.ipynb](https://github.com/huyndao/content-based-image-retrieval/blob/main/CBIR.ipynb) for the implementation.
 
-### Use Cases
+## Use Cases
 
 -   Find similar images (or duplicates)
 -   Find source image (e.g. which directory / link it originated from)
@@ -28,14 +28,14 @@ See [CBIR.ipynb](https://github.com/huyndao/content-based-image-retrieval/blob/m
 -   Requires some hyperparameter tuning
 -   Likely does not work well on images that have been flipped or rotated
 
-### Examples of Existing Implementations
+## Examples of Existing Implementations
 
 -   Google Image Search
 -   TinEye
 -   [image-match](https://github.com/rhsimplex/image-match) (Opensource but no longer maintained)
 -   [ImageHash](https://github.com/JohannesBuchner/imagehash) (Opensource, has multiple image hashing algorithms)
 
-### Why roll my own implementation?
+## Why roll my own implementation?
 
 -   To see if I could
 -   Privacy: allows me to search similar images from my private albums, instead
