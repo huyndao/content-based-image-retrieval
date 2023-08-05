@@ -4,6 +4,10 @@
 
 Given an image, find other similar images from a learned set of images.
 
+## Notebook
+
+See [CBIR.ipynb](https://github.com/huyndao/content-based-image-retrieval/blob/main/CBIR.ipynb) for the implementation.
+
 ### Use Cases
 
 -   Find similar images (or duplicates)
@@ -82,6 +86,3 @@ A `CBIR` class is built to the following framework:
 6.  Save final model
 7.  Query an image against the built dataset as desired
 
-## Notebook
-
-See `CBIR.ipynb` for the implementation.
